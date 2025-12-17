@@ -4,16 +4,24 @@
 
 ```js
 class Animal {
-  constructor(name) { this.name = name; }
-  speak() { return `${this.name} makes a noise`; }
+  constructor(name) {
+    this.name = name;
+  }
+  speak() {
+    return `${this.name} makes a noise`;
+  }
 }
 
 class Dog extends Animal {
-  speak() { return `${this.name} barks`; }
-  static create(name) { return new Dog(name); }
+  speak() {
+    return `${this.name} barks`;
+  }
+  static create(name) {
+    return new Dog(name);
+  }
 }
 
-const d = Dog.create('Buddy');
+const d = Dog.create("Buddy");
 console.log(d.speak()); // Buddy barks
 ```
 

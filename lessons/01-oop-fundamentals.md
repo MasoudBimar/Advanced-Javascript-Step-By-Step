@@ -36,8 +36,13 @@ Short summary: Core object-oriented programming concepts and how they map to Jav
 function createCounter() {
   let count = 0;
   return {
-    inc() { count++; return count; },
-    get() { return count; }
+    inc() {
+      count++;
+      return count;
+    },
+    get() {
+      return count;
+    },
   };
 }
 

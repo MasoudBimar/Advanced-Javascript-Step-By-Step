@@ -23,13 +23,19 @@ Short summary: Syntax and semantics of `class` in modern JavaScript, how it rela
 
 ```js
 class Animal {
-  #secret = 'x';
-  constructor(name) { this.name = name; }
-  speak() { return `${this.name}...`; }
+  #secret = "x";
+  constructor(name) {
+    this.name = name;
+  }
+  speak() {
+    return `${this.name}...`;
+  }
 }
 
 class Dog extends Animal {
-  speak() { return super.speak() + ' woof'; }
+  speak() {
+    return super.speak() + " woof";
+  }
 }
 ```
 

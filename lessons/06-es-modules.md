@@ -23,11 +23,13 @@ Short summary: Module syntax, default vs named exports, dynamic import, and modu
 
 ```js
 // utils.js
-export function sum(a, b) { return a + b; }
+export function sum(a, b) {
+  return a + b;
+}
 
 // main.js
-import { sum } from './utils.js';
-console.log(sum(1,2));
+import { sum } from "./utils.js";
+console.log(sum(1, 2));
 ```
 
 ## Exercises

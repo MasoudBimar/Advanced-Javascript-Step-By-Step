@@ -22,10 +22,16 @@ Short summary: Patterns for inheritance in JS using prototypes and constructor f
 ## Example
 
 ```js
-function Animal(name) { this.name = name; }
-Animal.prototype.speak = function() { return `${this.name} makes a noise`; };
+function Animal(name) {
+  this.name = name;
+}
+Animal.prototype.speak = function () {
+  return `${this.name} makes a noise`;
+};
 
-function Dog(name) { Animal.call(this, name); }
+function Dog(name) {
+  Animal.call(this, name);
+}
 Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Dog;
 ```

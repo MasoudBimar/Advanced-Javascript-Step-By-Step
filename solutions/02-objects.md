@@ -4,7 +4,7 @@
 
 ```js
 const obj = { visible: 1 };
-Object.defineProperty(obj, 'hidden', { value: 42, enumerable: false });
+Object.defineProperty(obj, "hidden", { value: 42, enumerable: false });
 
 // Reading it:
 console.log(obj.hidden); // 42

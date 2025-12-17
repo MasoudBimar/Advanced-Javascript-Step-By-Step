@@ -22,10 +22,12 @@ Short summary: Promises, chaining, error handling, combinators, and `async`/`awa
 ## Example
 
 ```js
-function wait(ms) { return new Promise(res => setTimeout(res, ms)); }
+function wait(ms) {
+  return new Promise((res) => setTimeout(res, ms));
+}
 
 async function raceExample() {
-  const results = await Promise.all([wait(10).then(()=>'a'), wait(20).then(()=>'b')]);
+  const results = await Promise.all([wait(10).then(() => "a"), wait(20).then(() => "b")]);
   return results; // ['a','b']
 }
 ```

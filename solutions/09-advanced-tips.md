@@ -7,7 +7,7 @@ Example function (inefficient):
 ```js
 function sumSquares(arr) {
   // repeated property access and intermediate arrays
-  return arr.map(x => x*x).reduce((s, v) => s + v, 0);
+  return arr.map((x) => x * x).reduce((s, v) => s + v, 0);
 }
 ```
 

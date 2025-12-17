@@ -25,10 +25,10 @@ function readFile(path) {
 
 (async () => {
   try {
-    const text = await readFile('/tmp/x');
+    const text = await readFile("/tmp/x");
     console.log(text);
   } catch (err) {
-    console.error('error', err);
+    console.error("error", err);
   }
 })();
 ```

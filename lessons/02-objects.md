@@ -22,9 +22,13 @@ Short summary: Deep dive into JavaScript objects, property descriptors, and comm
 ## Example
 
 ```js
-const proto = { hello() { return 'hi'; } };
+const proto = {
+  hello() {
+    return "hi";
+  },
+};
 const obj = Object.create(proto);
-Object.defineProperty(obj, 'x', { value: 42, writable: false });
+Object.defineProperty(obj, "x", { value: 42, writable: false });
 ```
 
 ## Exercises

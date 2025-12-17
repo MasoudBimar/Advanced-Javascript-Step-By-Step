@@ -24,8 +24,8 @@ Short summary: Built-in collection types in JS: `Map`, `Set`, `WeakMap`, `WeakSe
 
 ```js
 const m = new Map();
-m.set({k:1}, 'value');
-const s = new Set([1,2,3]);
+m.set({ k: 1 }, "value");
+const s = new Set([1, 2, 3]);
 ```
 
 ## Exercises
