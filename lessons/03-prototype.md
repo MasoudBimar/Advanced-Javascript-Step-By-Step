@@ -5,9 +5,19 @@ index: 03
 duration: 25m
 prerequisites:
   - "Objects"
-tags:
-  - prototype
-  - inheritance
+---
+
+title: "Prototype"
+lesson: true
+index: 03
+duration: 25m
+prerequisites:
+
+- "Objects"
+  tags:
+- prototype
+- inheritance
+
 ---
 
 # Prototype

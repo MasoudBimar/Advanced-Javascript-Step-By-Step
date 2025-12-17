@@ -39,3 +39,7 @@ Dog.prototype.constructor = Dog;
 ## Exercises
 
 1. Convert the constructor pattern to composition and discuss trade-offs.
+
+## Exercises
+
+1. Convert the constructor pattern to composition and discuss trade-offs.

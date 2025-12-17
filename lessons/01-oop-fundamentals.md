@@ -1,13 +1,18 @@
 ---
 title: "OOP Fundamentals"
+---
+
+title: "OOP Fundamentals"
 lesson: true
 index: 01
 duration: 30m
 prerequisites:
-  - "Basic JS syntax"
-tags:
-  - oop
-  - objects
+
+- "Basic JS syntax"
+  tags:
+- oop
+- objects
+
 ---
 
 # OOP Fundamentals

@@ -5,9 +5,19 @@ index: 02
 duration: 25m
 prerequisites:
   - "OOP Fundamentals"
-tags:
-  - objects
-  - descriptors
+---
+
+title: "Objects"
+lesson: true
+index: 02
+duration: 25m
+prerequisites:
+
+- "OOP Fundamentals"
+  tags:
+- objects
+- descriptors
+
 ---
 
 # Objects
